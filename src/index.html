@@ -6,20 +6,21 @@
       * {
         font-family: sans-serif;
         margin: 26px;
+        font-weight: 300;
+        line-height: 40px;
       }
-      article {
+
+      .chatbot {
         border: 1px solid grey;
         width: 600px;
         height: 500px;
         margin: auto;
         margin-top: 100px;
-
-        padding: 40px 50px 40px 50px;
+        padding: 40px;
       }
 
       #title {
         font-size: 50px;
-        font-weight: 300;
         color: rgba(0, 0, 0, 0.7);
         line-height: 60px;
       }
@@ -28,26 +29,23 @@
         border: 1px solid rgba(0, 0, 0, 0.7);
         width: 70px;
       }
+
       #desc {
         font-size: 26px;
-        font-weight: 300;
-        color: rgba(0, 0, 0, 0.6);
-        line-height: 40px;
+        color: rgba(0, 0, 0, 0.5);
       }
 
       #try-now {
         background-color: #4184e1;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 18px 200px 18px 200px;
         height: 22px;
         border-radius: 30px;
+        font-size: 22px;
         text-align: center;
         color: white;
-        font-weight: 300;
       }
       #policy {
-        font-size: 20px;
-        font-weight: 300;
+        font-size: 18px;
         color: rgba(0, 0, 0, 0.4);
         line-height: 30px;
       }
@@ -55,15 +53,15 @@
   </head>
 
   <body>
-    <article>
+    <article class="chatbot">
       <h1 id="title">Build your first chatbot in 10 minutes!</h1>
-      <p id="line"></p>
+      <div id="line"></div>
       <p id="desc">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot.
       </p>
 
-      <h2 id="try-now">TRY NOW -></h2>
+      <a id="try-now">TRY NOW →</a>
 
       <p id="policy">
         By clicking try now you create an account and agree to our Terms and
